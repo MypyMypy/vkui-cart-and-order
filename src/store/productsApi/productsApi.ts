@@ -4,7 +4,7 @@ import type { ProductI } from '../../types';
 export const productsApi = createApi({
   reducerPath: 'productsApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://mypymypy.github.io/vk-market-task/',
+    baseUrl: 'https://mypymypy.github.io/vkui-cart-and-order/',
   }),
   tagTypes: ['Products'],
   endpoints: (builder) => ({
